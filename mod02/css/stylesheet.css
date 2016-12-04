@@ -1,0 +1,26 @@
+p {
+	border: 1px solid black;
+	background-color: blue;
+	color:white;
+}
+@media (min-width:992px)
+    .col-lg {
+     	float: left;
+     }
+     .col-lg {
+     	widht:66.66%;
+     }
+@media (min-widht:768px) and (max-widht:991px)
+     .col-md {
+     	float: left;
+     }
+     .col-md {
+     	widht:66.66%;
+     }
+@media (max-width:767px)
+    .col-sm {
+     	float: left;
+     }
+     .col-sm {
+     	widht:100%;
+     }
